@@ -1,0 +1,11 @@
+body {
+    background-color: rgba(131, 131, 131, 0.055);
+}
+
+h1 {
+    color: royalblue;
+}
+
+.container {
+    padding-top: 5vh;
+}

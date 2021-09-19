@@ -1,0 +1,18 @@
+/* Pacote utilizado pra conexão com Banco de Dados 
+    //Terminal
+    npm install --save sequelize
+    
+    //Para usar MySQL
+    npm install --save mysql2
+*/
+//Documentação: https://sequelize.org/master/manual/getting-started.html
+
+const { Sequelize } = require('sequelize');
+const sequelize = require('sequelize');
+
+const connection = new Sequelize('NOME_BD', 'USER_BD', 'SENHA_BD', {
+    host: '127.0.0.1',
+    dialect: 'mysql'
+});
+
+module.exports = connection;
